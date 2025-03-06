@@ -13,24 +13,24 @@ The Reviews Plugin is a WordPress plugin designed to manage user reviews on a we
 - **Shortcode Support**: Provides a shortcode to display reviews on any page or post.
 
 ## File Structure
-/reviews-plugin
-    ├── reviews.php                // Main plugin file
-    ├── includes
-    │   ├── enqueue-scripts.php    // Enqueues styles and scripts
-    │   ├── post-type.php           // Registers custom post type
-    │   ├── meta-boxes.php          // Registers meta boxes for additional data
-    │   ├── shortcodes.php          // Registers shortcodes for displaying reviews
-    │   ├── ajax-handlers.php       // Handles AJAX requests for adding, deleting, and fetching reviews
-    │   ├── template-handler.php     // Handles template-related functions
-    │   └── page-handler.php        // Handles page creation on plugin activation
-    ├── js
-    │   ├── delete-review.js        // Handles review deletion
-    │   ├── load-reviews.js         // Loads reviews via AJAX
-    │   ├── rating.js               // Manages the star rating tooltip
-    │   └── responsive.js           // Adjusts review width based on screen size
-    ├── css
-    │   └── reviews.css             // Styles for the reviews section
-    └── template-reviews.php        // Template file for displaying reviews
+1. **/reviews-plugin
+2. **   ├── reviews.php                // Main plugin file
+3. **    ├── includes
+4. **    │   ├── enqueue-scripts.php    // Enqueues styles and scripts
+5. **    │   ├── post-type.php           // Registers custom post type
+6. **    │   ├── meta-boxes.php          // Registers meta boxes for additional data
+7. **    │   ├── shortcodes.php          // Registers shortcodes for displaying reviews
+8. **    │   ├── ajax-handlers.php       // Handles AJAX requests for adding, deleting, and fetching reviews
+9. **    │   ├── template-handler.php     // Handles template-related functions
+10. **   │   └── page-handler.php        // Handles page creation on plugin activation
+11. **   ├── js
+12. **   │   ├── delete-review.js        // Handles review deletion
+13. **   │   ├── load-reviews.js         // Loads reviews via AJAX
+14. **   │   ├── rating.js               // Manages the star rating tooltip
+15. **   │   └── responsive.js           // Adjusts review width based on screen size
+16. **   ├── css
+17. **   │   └── reviews.css             // Styles for the reviews section
+18. **   └── template-reviews.php        // Template file for displaying reviews
 
 
 
